@@ -1,0 +1,17 @@
+<html>
+      <head><title>MyWebsite</title>
+      </head>
+<center>
+<body background="https://static.pexels.com/photos/311039/pexels-photo-311039.jpeg">
+      <img src="http://siam.cs.illinois.edu/wp-content/themes/Illinois-Logo/Illinois-Logo-Primary/Illinois-Logo-Full-Color-RGB.png" width="60px" height="100px">
+      <hr>
+      <h3><a href="file:///C:/Users/Billy/Desktop/New%20folder/About%20ME.html">ABOUT ME</a> -- <a href="file:///C:/Users/Billy/Desktop/New%20folder/Links.html">LINKS</a> -- <a href="file:///C:/Users/Billy/Desktop/New%20folder/Research%20Interest.html">Current Research and interest</a></h3>
+      <hr>
+<font size = "3"><b>Hello, my name is Billy Hernawan and I am an undergraduate Civil engineering student at the University of Illinois at Urbana-Champaign. My concentration include geotechnical and structural engineering. The image you see below is called a cofferdam and it is a watertight enclosure to allow the construction of bridge pier.
+There are many challenges associated with building one of these structures. One of the challenges is the critical gradient due to the difference in head pressure which may cause <a href="https://en.wikipedia.org/wiki/Soil_liquefaction">soil liquefaction</a>.</font><b>
+<img src="http://www.thehansindia.com/assets/5210_Classroomcofferpic.jpg">
+
+
+</body>
+</center>
+</html>
