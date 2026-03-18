@@ -11,8 +11,8 @@ profile:
   address: <br><b>Billy Hernawan</b><br><i>808S DLEB<br>3136 TAMU<br>College Station, TX 77843-3143</i>
 
 
-news: true
-talks: true
+news: false
+talks: false
 social: true
 ---
 
