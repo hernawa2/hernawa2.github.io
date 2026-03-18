@@ -7,7 +7,7 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: prof_pic3.png
   address: <br><b>Billy Hernawan</b><br><i>808S DLEB<br>3136 TAMU<br>College Station, TX 77843-3143</i>
 
 
