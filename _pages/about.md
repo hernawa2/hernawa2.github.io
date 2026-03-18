@@ -7,7 +7,7 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
-  image: GM-problem.png
+  image: prof_pic3.png
   address: <br><b>Jesús D. Arroyo Relión</b><br><i>458D Blocker Building<br>3143 TAMU<br>College Station, TX 77843-3143</i>
 
 
