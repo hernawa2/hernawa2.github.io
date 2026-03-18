@@ -7,8 +7,8 @@ description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
-  image: prof_pic3.png‎
-  address: <br><b>Billy Hernawan</b><br><i>808S DLEB<br>3136 TAMU<br>College Station, TX 77843-3143</i>
+  image: prof_pic.jpg
+  address: <br><b>Jesús D. Arroyo Relión</b><br><i>458D Blocker Building<br>3143 TAMU<br>College Station, TX 77843-3143</i>
 
 
 news: true
@@ -16,8 +16,16 @@ talks: true
 social: true
 ---
 
+I am an Assistant Professor in the [Department of Statistics](https://stat.tamu.edu/) at Texas A&M University.
+
+My research interests include statistical network analysis, machine learning, high-dimensional data analysis, and applications to neuroimaging.
+
 ### About
 
-I am a PhD candidate in my final year in the [Department of Civil & Environmental Engineering](https://engineering.tamu.edu/civil/index.html) at Texas A&M University. My research interests include causal network, quantitative risk modeling, random field, operation research and parallelization of Bayesian inference.
+In 2018, completed my PhD in Statistics at the [University of Michigan](https://lsa.umich.edu/stats), advised by Professor [Liza Levina](http://dept.stat.lsa.umich.edu/~elevina/). I received a B.Sc. in Applied Mathematics and a B.Sc. in Computer Engineering from the [Mexico Autonomous Institute of Technology (ITAM)](http://www.itam.mx).
 
-My doctoral topics revolve around probabilistic parameter learning for causal network model and the application of random field to aid in decision-making and I am currently advised by Professor [Zenon Medina-Cetina](https://zenon-sgl.tamu.edu/). I received both BS and MS in Civil Engineering from [University of Illinois Urbana-Champaign](https://cee.illinois.edu/).
+From August 2018 to 2021, I was a postdoctoral researcher in the [Center for Imaging Science](https://www.cis.jhu.edu/) at Johns Hopkins University, and in the [Department of Mathematics](https://www-math.umd.edu/) at the University of Maryland, College Park, working with with Professors
+[Carey E. Priebe](http://www.ams.jhu.edu/~priebe/) and [Joshua T. Vogelstein](https://jovo.me/) at JHU, and with Professor [Vince Lyzinski](https://www.math.umd.edu/~vlyzinsk/) at UMD. 
+
+My research is supported by the National Science Foundation grant [NSF DMS-2413553](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2413553). Any opinions, findings, and conclusions or recommendations are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
