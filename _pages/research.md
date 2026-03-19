@@ -9,7 +9,8 @@ nav: true
 ## Interests
 
 - **Causal Network:** Bayesian Network for regression and classification problem.
-- **Parallelized Bayesian Inference:** Parallel Markov Chain Monte Carlo, Langenvin/Hamiltonian Monte Carlo.
+- **Parallelized Bayesian Inference:** Parallel Markov Chain Monte Carlo, Langenvin/Hamiltonian Monte Carlo, Multiple Try Monte Carlo.
+- **Operation Research:** Discrete Event Simulation, Autonomous resource allocation, optimization.
 - **Statistical machine learning and pattern recognition:** classification, regression, clustering.
 - **Applications to Risk & Supply Chain Modeling:** Probabilistic modeling, Gaussian Process Regression.
 
