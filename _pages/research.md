@@ -8,33 +8,39 @@ nav: true
 
 ## Interests
 
-- **Statistical inference for networks:** latent space models, community detection, spectral graph inference.
-- **High-dimensional data analysis:** variable selection, dimensionality reduction, covariance estimation, convex optimization.
-- **Statistical machine learning and pattern recognition:** classification, regression, clustering, graph matching.
-- **Applications to neuroimaging:** statistical connectomics.
+- **Causal Network:** Bayesian Network for regression and classification problem.
+- **Parallelized Bayesian Inference:** Parallel Markov Chain Monte Carlo, Langenvin/Hamiltonian Monte Carlo.
+- **Statistical machine learning and pattern recognition:** classification, regression, clustering.
+- **Applications to Risk & Supply Chain Modeling:** Probabilistic modeling, Gaussian Process Regression.
 
 
 <details markdown="1">
 <summary> <b>Overview</b> (<i>click to expand</i>) </summary><p>
 
-I am interested in the statistical, mathematical and computational aspectsof methodologies for problems that arise in data science, especially for *large and complex data*. My research combines the following themes.
+I am interested in the statistical, mathematical and computational aspects
+of methodologies for problems that arise in data science, especially for *large and complex data*. My research combines the following themes.
 
-- Developing statistical methodologies for complex and high-dimensional data to make*interpretable and efficient inferences* by exploiting low-dimensional structures in the data.
+- Developing statistical methodologies for complex and high-dimensional data to make
+*interpretable and efficient inferences* by exploiting low-dimensional structures in the data.
 
 - Constructing *computationally efficient and robust algorithms* for large-scale data analysis, in particular through spectral methods and convex optimization.
 
-- Studying the theoretical aspects of the above problems within a formal statistical framework to *quantify uncertainty* and to better *understand their non-asymptotic performanceand limitations*.
+- Studying the theoretical aspects of the above problems within a formal statistical framework to *quantify uncertainty* and to better *understand their non-asymptotic performance
+and limitations*.
 
 - Applying these methodologies to relevant scientific problems,  with a special focus on neuroscience applications to understand the connectivity of the brain.
 
-Broadly speaking, my work can be classified into three areas: statistical modeling,estimation and inference for *network analysis*, supervised and unsupervised *machine learning* methods forcomplex data types, and methodology and theory for *pattern recognition* in graphs.
+Broadly speaking, my work can be classified into three areas: statistical modeling,
+estimation and inference for *network analysis*, supervised and unsupervised *machine learning* methods for
+complex data types, and methodology and theory for *pattern recognition* in graphs.
 
 </p></details>
 
 <details>
 <summary> <b>Network analysis</b> (<i>click to expand</i>) </summary><p>
 
-The analysis of network data has received increasing attention motivated by the study of complex systems with interactive units. Examples of these systems appearin social, biological and technological networks, among others fields. My work in this area focuses in addressing estimation and inference problems by exploiting low-dimensional representations using a combination of latent space models and spectral graph inference. I have worked in developing new methodologies with provable theoretical guarantees for performing network inferences tasks including community detection, dimensionality reduction, or graph hypothesis testing, particularly for problems involving multiple networks.
+The analysis of network data has received increasing attention motivated by the study of complex systems with interactive units. Examples of these systems appear
+in social, biological and technological networks, among others fields. My work in this area focuses in addressing estimation and inference problems by exploiting low-dimensional representations using a combination of latent space models and spectral graph inference. I have worked in developing new methodologies with provable theoretical guarantees for performing network inferences tasks including community detection, dimensionality reduction, or graph hypothesis testing, particularly for problems involving multiple networks.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -72,7 +78,13 @@ Guodong Chen, *Jesús Arroyo*, Avanti Athreya, Joshua Cape, Joshua T Vogelstein,
 <details>
 <summary>  <b>Statistical Learning</b> (<i>click to expand</i>)</summary> 
 
-Modern high-dimensional settings in statistics and machine learning are often concerned withvariable selection or regularization approaches to reduce the dimension of the problem andto discover meaningful associations between variables. These tasks become more challengingin complex datasets with additional multi-scale structure in the variables, such as networks,tensors or multimodal data, which often show strong dependence associations between variables. I have worked in developingnew techniques to study these problems by introducing novel regularizations and methodologies that deal with thecomplexity of the data effectively in supervised learning with network-valued covariates, dimensionality reduction, graphical model learning, and applications to brain network classification.
+Modern high-dimensional settings in statistics and machine learning are often concerned with
+variable selection or regularization approaches to reduce the dimension of the problem and
+to discover meaningful associations between variables. These tasks become more challenging
+in complex datasets with additional multi-scale structure in the variables, such as networks,
+tensors or multimodal data, which often show strong dependence associations between variables. I have worked in developing
+new techniques to study these problems by introducing novel regularizations and methodologies that deal with the
+complexity of the data effectively in supervised learning with network-valued covariates, dimensionality reduction, graphical model learning, and applications to brain network classification.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
