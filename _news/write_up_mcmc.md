@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MCMC write up
+title: Fundamental of Markov Chain Monte Carlo
 date: 2026-03-18
 ---
 
