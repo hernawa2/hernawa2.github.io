@@ -11,14 +11,14 @@ nav: true
 
 ## Selected publications and pre-prints
 
-This page is updated occasionally. For a recent list of articles, please check my [Google Scholar](https://scholar.google.com/citations?user=Pt0QJm4AAAAJ&hl=es&authuser=1).
+This page is updated occasionally. For a recent list of articles, please check my [Google Scholar](https://scholar.google.com/citations?user=pm-qngMAAAAJ&hl=en).
 
 ### Refereed publications
 
-* **Overlapping community detection in networks via sparse spectral decomposition**<br>
-*Jesús Arroyo*, Elizaveta Levina<br>
-*Sankhya A (Special Issue on Network Analysis)* (2021).<br>
-[[journal]](https://rdcu.be/clHd0)[[preprint]](https://arxiv.org/abs/2009.10641)[[code]](https://github.com/jesusdaniel/spcaCD)
+* **Effects of sample preparation on triaxial compression tests formed with uniform spherical particles**<br>
+TNM Duong, *B Hernawan*, Z Medina-Cetina<br>
+*Machine Learning and Data Science in Geotechnics* (2026).<br>
+[[journal]](https://www.emerald.com/mlag/article/2/1/67/1346502)
 
 * **Graph matching between bipartite and unipartite networks: to collapse, or not to collapse, that is the question**<br>
 *Jesús Arroyo*, Carey E. Priebe, Vince Lyzinski<br>
