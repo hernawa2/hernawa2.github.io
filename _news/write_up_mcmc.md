@@ -5,4 +5,4 @@ date: 2026-03-18
 math: true
 ---
 
-Suppose there is a function (i.e., $$f(x)$$), parameterized by $\theta$ (in simple linear regression, this would be the $m$ and $b$) The fundamental concept of Markov Chain Monte Carlo (MCMC) is relatively simple.
+Suppose there is a function (i.e., $f(x)$), parameterized by $\theta$ (in simple linear regression, this would be the $m$ and $b$) The fundamental concept of Markov Chain Monte Carlo (MCMC) is relatively simple.
