@@ -10,7 +10,7 @@ nav: true
 
 ### Statistics
 
-* Fundamentals of **Markov Chain Monte Carlo**: Rethinking
+* The fundamentals of applied **Markov Chain Monte Carlo**
 
 
 
