@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+title: MCMC write up
 date: 2026-03-18
 inline: true
 ---
