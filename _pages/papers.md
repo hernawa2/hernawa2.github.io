@@ -42,7 +42,7 @@ P Varela, *B Hernawan*, Z Medina-Cetina<br>
 
 * **Numerical Modeling of an Asteroid Impact on Earth: Matching Field Observations at the Chicxulub Crater Using the Distinct Element Method**<br>
 TNM Duong, *B Hernawan*, Z Medina-Cetina, J Urrutia-Fucugauchi<br>
-*Geosciences* (2023), in press.<br>
+*Geosciences* (2023).<br>
 [[journal]](https://www.mdpi.com/2076-3263/13/5/139) 
 
 
