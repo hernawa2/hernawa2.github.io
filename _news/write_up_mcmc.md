@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The fundamentals of applied Markov Chain Monte Carlo
 date: 2026-03-18
 inline: true
