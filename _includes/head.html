@@ -43,9 +43,12 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
+<!-- FORCE MATH TO BE NORMAL WEIGHT -->
 <style>
-  /* Force MathJax to use normal font weight, preventing it from inheriting bold text */
   mjx-container, .MathJax {
+    font-weight: normal !important;
+  }
+  mjx-container mjx-math {
     font-weight: normal !important;
   }
 </style>
