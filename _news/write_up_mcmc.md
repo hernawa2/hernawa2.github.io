@@ -14,9 +14,17 @@ Suppose there is a function (i.e., $f(x)$), parameterized by $\theta$ (in simple
 True with any processes in our world, there is an inherent randomness within the quantity that we are interested in measuring (daily temperature or number of churning customers in an online platform). The randomness itself can come from nature or how we collect/sample the quantity that we are interested in. An optimization procedure above would try to estimate the mean or expected value of the quantity measured at a given condition. This means that optimization does not incorporate any randomness into the estimated mean.
 
 # Markov Chain Monte Carlo
-The question that MCMC tries to answer is relatively simple: given the observed quantities above, can I estimate the variation of the mean at a given condition. It is important to note that MCMC does not try to capture the entire inherent randomness of the process (modeling entire randomness of a certain process is called stochastic modeling).
+The question that MCMC tries to answer is relatively simple: given the observed quantities above, can I estimate the variation of the mean at a given condition. Therefore, to estimate the variation of the mean, $\theta$ must have some distribution that we can sampled from since the behavior of $f(x)$ is dictated by the $\theta$ used. The challenge is how do we estimate this distribution (i.e., posterior) of which we can sample $\theta$ from. It is also important to note that MCMC does not try to capture the entire inherent randomness of the process (modeling entire randomness of a certain process is called stochastic modeling).
 
-Formally, MCMC is the meat-and-potato of **Bayesian inference** to sample from complex distribution with no closed-form solution. Side note: a closed-form known distribution would be a Gaussian/normal distribution.
+Formally, MCMC is the meat-and-potato of **Bayesian inference** to sample from complex distribution with no closed-form solution. Side note: a closed-form known distribution would be a Gaussian/normal distribution with known mean and standard deviation.
 
-Before deciding on There are two main goals of MCMC
-As with any Bayesian inference process, 
+There are essentially two main goals of MCMC:
+1. To estimate the mean of the process (similar to the optimization procedure),
+2. To estimate the correlation between each of the parameter set $\theta$
+
+As with any Bayesian inference process, we need two ingredients: the prior and the likelihood.
+
+### Prior information
+Before exploring MCMC further, we need to understand what prior information is. A simple example would be when you are visiting a new city and looking up for a place to eat. Most people would open google map or yelp to look for options and look for the highly rated restaurant. Subsequently, you might even spend some more time looking at the reviews, menu and potentially pictures of dishes online before deciding on which restaurant to go to. This is known as our *a priori* (prior information), our state of knowledge before observing any quantities of interest; in this case, it would how the dish actually tastes. Prior information can take many shapes and form, this also includes a prior information where we know nothing about the restaurant around and simply walk in to any place for a quick meal.
+
+Formally, 
