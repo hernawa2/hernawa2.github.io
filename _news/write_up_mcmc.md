@@ -37,12 +37,16 @@ The mechanics itself is quite straightforward where the likelihood function is p
 ## Optimization
 To appreciate what MCMC actually does, it is always a good exercise to formulate the same problem from the optimization point of view. 
 <img src="/assets/img/sample.png" alt="sample" width="750">
-Consider the figure above. We think that the function $y = Ie^{-cx}$ with parameter $I$ and $c$ can satisfactorily described (or fit) the observation above. If we just plug in a random guess of $I=1.5$ and $c=-0.8$, then we get the curve below. Qualitatively, it is quite good but what if we optimize it with respect to the quantity $y$? we do this by specifying what we want to minimize and in this case, we can use the average squared distance between each point to the line. Sidenote: we used squared distance to remove the negative sign.
+Consider the figure above. We think that the function $y = Ie^{-cx}$ with parameter $I$ and $c$ can satisfactorily described (or fit) the observation above. If we just plug in a random guess of $I=1.5$ and $c=-0.8$, then we get the black curve below. Qualitatively, it is quite good but what if we optimize it with respect to the quantity $y$? we do this by specifying what we want to minimize and in this case, we can use the average squared distance between each point to the line. Sidenote: we used squared distance to remove the negative sign.
 
 <img src="/assets/img/sample.png" alt="sample_plot" width="750">
 
-The video below shows how an optimization (using gradient descend - I will talk about optimization in another post) procedure is conducted. The X-axis represents the parameter $I$ and the Y-axis represents the parameter $c$ and moreover, the background of the figure illustrates the averaged square distance or the error/loss. The objective is to then move to a point where the combination of $I$ and $c$ shows the lowest averaged square distance
+The video below shows how an optimization (using gradient descend - I will talk about optimization in another post) procedure is conducted. The X-axis represents the parameter $I$ and the Y-axis represents the parameter $c$ and moreover, the background of the figure illustrates the averaged square distance or the error/loss. The objective is to then move to a point where the combination of $I$ and $c$ shows the lowest averaged square distance.
 
 <video width="800" height="600" controls>
   <source src="/assets/img/opt.mp4" type="video/mp4">
 </video>
+
+Since now we have a point of $I$ and $c$ where the averaged square distance at its lowest, we then use this value of $I$ and $c$ to replot the blue line. If the goal is to estimate the mean of the process using $y = Ie^{-cx}$, then our job is done.
+
+<img src="/assets/img/sample.png" alt="sample_opt" width="750">
