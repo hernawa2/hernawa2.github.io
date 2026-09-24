@@ -29,7 +29,12 @@ Before exploring MCMC further, we need to understand what prior information is. 
 
 Formally, the prior information should contain any knowledge on the parameter set $\theta$ we would have before observing the quantity of interest (in this example, tasting the dish). Typically, a **Probability Density Function** (PDF) is prescribed as prior information. Therefore, A *strong* prior could mean a normal distribution of some mean and relatively small standard deviation. On the other hand, a *weak* prior could mean a uniform distribution over some range.
 
-### The Likelihood
+### The Likelihood function
 In layman terms, the likelihood measures how far are the $f(x)$ (from here on out, I am going to call this the *model prediction* at $x$) from the observed quantities. Since MCMC is a sampling technique, every time we take a sample of $\theta$, there has to be a mechanism to determine if $\theta$ produces model prediction that are close to the observed quantities, and that is precisely what the likelihood is for.
 
-The mechanics itself is quite straightforward where the likelihood function is prescribed to be some kind of PDF that can describe the error or residual distribution of the process. For example, given a set of $x$, and that the underlying process is a [[Gaussian Process]](https://en.wikipedia.org/wiki/Gaussian_process) 
+The mechanics itself is quite straightforward where the likelihood function is prescribed to be some kind of PDF that can describe the error or residual distribution of the process. For example, given a set of $x$, and that the underlying process is a [[Gaussian Process]](https://en.wikipedia.org/wiki/Gaussian_process), an appropriate likelihood function is a Multivariate Normal Distribution with a vector mean of the observed quantity and a covariance function built using the observed quantity. Once both prior information and likelihood function has been defined, we are then ready to proceed with the sampling procedure
+
+## Optimization
+To appreciate what MCMC actually does, it is always a good exercise to formulate the same problem from the optimization point of view. Consider the figure below
+
+![Description of image](/assets/img/sample.png)
