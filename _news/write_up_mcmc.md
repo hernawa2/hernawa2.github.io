@@ -60,7 +60,7 @@ Starting from the bar, since you do not know where to go (unguided), you pick a 
 <img src="/assets/img/drunk_man.png" alt="drunk_man" width="750">
 
 
-Back to the original observations above, we justified that the model $y = Ie^{-cx}$ is sufficient in describing the observation. Now, using the logic above, we start with a random point for both $I$ and $c$. The drunk man is now $I$ and $c$ and the house is now your *posterior* distribution (sometimes also called target distribution). Then, the distance between the model prediction and the observation now symbolizes the intensity of the train sound. Lastly, not covered above, the drunk man subconscious awareness is not the prior. The process of MCMC sampling is shown below in the space of $I$ and $c$.
+Back to the original observations above, we justified that the model $y = Ie^{-cx}$ is sufficient in describing the observation. Now, using the logic above, we start with a random point for both $I$ and $c$. The drunk man is now $I$ and $c$ and the house is now your *posterior* distribution (sometimes also called target distribution). Then, the distance between the model prediction and the observation now symbolizes the intensity of the train sound. Lastly, not covered above, the drunk man's subconscious awareness is now the prior. The process of MCMC sampling is shown below in the space of $I$ and $c$.
 
 <video width="800" height="600" controls>
   <source src="/assets/img/mcmc.mp4" type="video/mp4">
