@@ -36,7 +36,6 @@ The mechanics itself is quite straightforward where the likelihood function is p
 
 ## Optimization
 To appreciate what MCMC actually does, it is always a good exercise to formulate the same problem from the optimization point of view. Consider the figure below
-
-![Description of image](/assets/img/sample.png)
-<img src="/assets/img/sample.png" alt="sample" width="500">
+<img src="/assets/img/sample.png" alt="sample" width="1000">
+and we think that the function $y = Ie^(-cx)$ with parameter *I* and *c* can satisfactorily described (or fit) the observation above. If we just plug in some random 
 
