@@ -38,3 +38,5 @@ The mechanics itself is quite straightforward where the likelihood function is p
 To appreciate what MCMC actually does, it is always a good exercise to formulate the same problem from the optimization point of view. Consider the figure below
 
 ![Description of image](/assets/img/sample.png)
+<img src="/assets/img/sample.png" alt="sample" width="500">
+
