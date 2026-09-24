@@ -68,6 +68,9 @@ Back to the original observations above, we justified that the model $y = Ie^{-c
 
 If you watch the entire video above, you will soon realize that the sampling had reached its posterior distribution. If we plot how frequent each point is visited, we, then get the full posterior *joint* distribution of $I$ and $c$. Do you notice anything special?
 
+
+<img src="/assets/img/post.png" alt="posterior" width="750">
+
 That is it for MCMC. The example I show above is pedagogical and real-application is, more-often than not, always more complex. In high-dimension problem (the number of parameters $\theta$ is a lot), MCMC may take a very long time to reach the posterior distribution. If you ponder about it, in two-dimensional space, walking randomly will almost surely get you to where you want to go. But in dimension higher than that, unguided random walk stretches where the new point is, one parameter might want to go to the left, others go to the right, while other parameters want to go up to reach the target.
 
 There are of course, other modified version of MCMC such as Multiple-Try Metropolis, Adaptive MCMC, Langenvin Monte Carlo, and Hamiltonian Monte Carlo. There is even other non-computational method to compute the posterior distribution such as Variational Inference but I will cover this in another blog post.
