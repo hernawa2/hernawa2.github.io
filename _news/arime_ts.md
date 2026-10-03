@@ -14,6 +14,7 @@ Suppose you observe a sequential dataset (i.e., daily temperature or number of d
 Any time-series data can be described as a sequence of random variable ($Y_t$ - the t here represents the time step, could be minute, months or days) taken across a particular time unit. There are two main goals of any time-series analysis:
 1. Understanding the underlying data-generation distribution
 2. Forecasting into the future
+
 Depending on the goal of the analyst, there are analysis tools that can serve to aim both and other tools only serve one or the other. Regardless, once the underlying data-generation distribution has been determined, usually, the quality of forecasting becomes better too. However, we should very particular about the term "forecasting" since recently, it has been used interchangeably with extrapolation. To put it simply, merely doing extrapolation (we will discuss this later what this means) is not the same as doing proper forecasting.
 
 # Types of Time-Series Process
