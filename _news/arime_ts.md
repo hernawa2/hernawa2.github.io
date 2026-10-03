@@ -19,12 +19,12 @@ Depending on the goal of the analyst, there are analysis tools that can serve to
 # Types of Time-Series Process
 Generally, any time-series data $Y_t$ can be described as either stationary or non-stationary, Gaussian (normal) or non-Gaussian and/or homoscedastic or heteroskedastic. We can define using simple terms each as following:
 
-* Stationary: the mean and variance of $Y_t$ are constant and equal everywhere throughout the entire time-series.
-* Non-stationary: mostly varying mean or varying variance throughout the entire time-series.
-* Gaussian: each $Y_t$ follows a univariate Gaussian distribution. If we collect all $Y_t$, the underlying distribution is multivariate Gaussian random variable.
-* Non-Gaussian: each $Y_t$ do not follow Gaussian distribution and often shows heavy-tails or sudden jump.
-* Homoscedastic: the variance across time horizon remains constant.
-* Heteroskedastic: the variance across time horizon is not constant.
+* **Stationary**: the mean and variance of $Y_t$ are constant and equal everywhere throughout the entire time-series.
+* **Non-stationary**: mostly varying mean or varying variance throughout the entire time-series.
+* **Gaussian**: each $Y_t$ follows a univariate Gaussian distribution. If we collect all $Y_t$, the underlying distribution is multivariate Gaussian random variable.
+* **Non-Gaussian**: each $Y_t$ do not follow Gaussian distribution and often shows heavy-tails or sudden jump.
+* **Homoscedastic**: the variance across time horizon remains constant.
+* **Heteroskedastic**: the variance across time horizon is not constant.
 
 Ok, I just introduced many technical terms but fret not, we shall discuss them in great details. So one might ask, ok, for every $Y_t$, say at $Y_1$, you only observe one value, then how do you determine if the time-series process at $Y_1$ follows a univariate Gaussian distribution?
 I specifically leave out the discussion on autocovariance/covariance to simplify this blog post. Among
