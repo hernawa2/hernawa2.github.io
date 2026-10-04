@@ -31,7 +31,7 @@ Ok, I just introduced many technical terms but fret not, we shall discuss them i
 
 <img src="/assets/img/ts_example.png" alt="sample" width="750">
 
-So, you might observe a time-series data that looks like the first plot above. Since we can look at time-series as a stochastic process, what happens when you can actually observe this quantity again under the exact same condition (like parallel world) and you collect all of the observation and plot them all together, then you might observe the second plot above. So what happens here is that, if we slice, collect, and plot data at, say in $t=1$, we will see that the distribution resembles a Gaussian distribution. This is what we mean when the time-series is Gaussian. Secondly, if we plot the histogram in 3D all of $Y_(t=1)$ and $Y_(t=2)$, then we will get a multivariate Gaussian distribution.
+So, you might observe a time-series data that looks like the first plot above. Since we can look at time-series as a stochastic process, what happens when you can actually observe this quantity again under the exact same condition (like parallel world) and you collect all of the observation and plot them all together, then you might observe the second plot above. So what happens here is that, if we slice, collect, and plot data at, say in $t=1$, we will see that the distribution resembles a Gaussian distribution. This is what we mean when the time-series is Gaussian. Secondly, if we plot the histogram in 3D all of $Y_{t=1}$ and $Y_{t=2}$, then we will get a multivariate Gaussian distribution.
 
 <img src="/assets/img/gauss_mult.png" alt="sample" width="750">
 
