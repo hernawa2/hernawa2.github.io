@@ -39,7 +39,7 @@ In the case above, we have a non-stationary Gaussian Homoscedastic time-series w
 
 But of course, in real life, we only observe one **realization** just like shown in the first plot above and not the entire possibility across each $t$. This is the challenge in uncovering the data-generating process with only a single realization. Typically, the process to determine what kind of time series we are dealing with, the first approach is to do decomposition of the time-series to trend (mean), seasonality (if any), and residual (noise). For most of the time, modeling trend would be the first objective and is typically sufficient for most purpose. Modeling seasonality and residual would be more involved. One of the most popular approach is through [Seasonal-Trend decomposition using LOESS (STL)](https://www.math.unm.edu/~lil/Stat581/STL.pdf).
 
-<img src="/assets/img/STL_res.png" alt="sample" width="750">
+<img src="/assets/img/STL_res.PNG" alt="sample" width="750">
 
 All of the steps above are some of the initial steps to uncover the data-generating distribution in a time-series process. Next, we will talk about a extrapolation/forecasting of time-series, which is what most people are more interested in.
 
