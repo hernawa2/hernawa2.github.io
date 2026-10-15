@@ -45,4 +45,26 @@ All of the steps above are some of the initial steps to uncover the data-generat
 
 # Forecasting = Extrapolation ?
 
-To be continued...
+We have come to the most fascinating section of the time-series analysis. Just like what I alluded previously, most of the time, extrapolation is simply predicting the conditional mean at time $t$ given past historical records. Forecasting (i.e., predicting the future) is then inherently probabilistic by nature. The same concept is actually also applied to weather forecasting. Briefly speaking, the mean of the probabilistic output should generally be the conditional mean of whatever extrapolation model that is used.
+
+I will discuss both in greater details in subsequent post. But let us assume that we are satisfied that extrapolation is equal to forecasting. The next question is then, what model do we use? I would generally classify the modeling types into three: models that are intrinsically temporal, models that are not intrinsically temporal, and function-based model. 
+
+Some examples of forecasting models that are intrinsically temporal are
+* Autoregressive class models
+* Recurrent-based Neural Network (e.g., LSTM, GRU)
+* Transformers
+
+Some people would use state estimation models such as Kalman Filter as intrinsically temporal. While true, I would not classify KF as a forecasting model in the strictest sense.
+
+On the other hand, some examples of forecasting models that are not intrinsically temporal are
+* Tree-based model (e.g., XGBoost, Random Forest)
+* regression based model
+* And many more
+
+And function-based models include
+* Gaussian process regression
+* Spline
+
+The main difference between the intrinsically temporal models and the ones who are not is the built-in temporal structure. I will discuss some autoregressive (AR) models later as an example but in AR models, the next value forecasted is a linear combination of the previous $K$ values. Therefore, there is a built-in temporal structure that constraints the model's forecasted value. Therefore, many classical statistical forecasting methods (i.e., AR) are univariate by design - although modifications can be made to accommodate multivariate and most neural network-based models can handle multi-input, single output scenario. 
+
+On the other hand, regression based models require an explicit encoding of the temporal element in the input. This requires some feature engineering derived from the original time-series such as lag at 7 days, or lag at 31 days so on and so forth. Then, the model can identify underlying patterns between the actual time-series with its lagged values, therefore creating a temporal chain.
