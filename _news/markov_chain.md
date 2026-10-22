@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Markov Chain: From the first statistical language model to Google's PageRank
+title: Markov Chain - From the first statistical language model to Google's PageRank
 date: 2026-05-18
 math: true
 ---
