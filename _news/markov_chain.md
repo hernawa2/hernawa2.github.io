@@ -14,7 +14,15 @@ This is a classical example of a problem that can be solved easily using a Marko
 
 # Discrete Markov Chain
 For the purpose of discussion, we would consider discrete states (i.e., the five different countable wooden blocks) Markov Chain. Formally, a Markov Chain can be defined as $P(X_{t+1}|X_t)$. This simply states that the next state where I am going to be only depends on the previous state and nothing else.
-For our example, this means that which wooden block the frog decided to jump to, only depends on its current wooden block is sitting on. All previously visited wooden blocks simply do not matter (i.e., memoryless frog)
+For our example, this means that which wooden block the frog decided to jump to, only depends on its current wooden block is sitting on. All previously visited wooden blocks simply do not matter (i.e., memoryless frog). The illustration on how the problem above can be represented as a Markov Chain is shown below.
+
+<img src="/assets/img/markov_chain.png" alt="sample_plot" width="750">
+
+Then how does the frog know which wooden block to jump to? The probability of where the frog decides to jump to can be depicted with a transition/stochastic matrix.
+
+<img src="/assets/img/stoc_matrix.png" alt="sample_plot" width="750">
+
+
 
 ### Prior information
 Before exploring MCMC further, we need to understand what prior information is. A simple example would be when you are visiting a new city and looking up for a place to eat. Most people would open google map or yelp to look for options and look for the highly rated restaurant. Subsequently, you might even spend some more time looking at the reviews, menu and potentially pictures of dishes online before deciding on which restaurant to go to. This is known as our *a priori* (prior information), our state of knowledge before observing any quantities of interest; in this case, it would be how the dish actually tastes. Prior information can take many shapes and form, this also includes a prior information where we know nothing about the restaurant around and simply walk in to any place for a quick meal.
