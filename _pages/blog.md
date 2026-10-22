@@ -10,9 +10,9 @@ nav: true
 
 ### Statistics
 
-* The fundamentals of applied [**Markov Chain Monte Carlo**](https://github.com/hernawa2/hernawa2.github.io/blob/master/_news/write_up_mcmc.md)
-* [Time-series analysis - Fundamentals](https://github.com/hernawa2/hernawa2.github.io/blob/master/_news/arime_ts.md)
-* [Markov Chain](https://github.com/hernawa2/hernawa2.github.io/blob/master/_news/markov_chain.md) - From the first statistical language model to Google's PageRank
+* The fundamentals of applied [**Markov Chain Monte Carlo**](https://hernawa2.github.io/news/write_up_mcmc/)
+* [Time-series analysis - Fundamentals](https://hernawa2.github.io/news/arime_ts/)
+* [Markov Chain](https://hernawa2.github.io/news/markov_chain/) - From the first statistical language model to Google's PageRank
 
 
 ### Engineering
