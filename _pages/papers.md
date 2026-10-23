@@ -15,6 +15,11 @@ This page is updated occasionally. For a recent list of articles, please check m
 
 ### Refereed publications
 
+* **Risk of Generative AI as an Assistant in Geotechnical Practice**<br>
+Z Medina-Cetina, *B Hernawan*, GB Baecher, Y Hashash, J-L Briaud<br>
+*Geostrata* 30(3) (2026). <br>
+[[Magazine]](https://ascelibrary.org/doi/abs/10.1061/geosek.0000711)
+
 * **Effects of sample preparation on triaxial compression tests formed with uniform spherical particles**<br>
 TNM Duong, *B Hernawan*, Z Medina-Cetina<br>
 *Machine Learning and Data Science in Geotechnics* (2026).<br>
