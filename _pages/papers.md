@@ -56,4 +56,4 @@ TNM Duong, *B Hernawan*, Z Medina-Cetina, J Urrutia-Fucugauchi<br>
 
 * **Bayesian LSTM Benchmark for Uncertainty Quantification in Time-Series Process**<br>
 *B Hernawan*<br>
-<a href="Billy_Hernawan_Bayesian_LSTM.pdf">File</a>
+<a href="assets/pdf/Billy_Hernawan_Bayesian_LSTM.pdf" target="_blank">>File</a>
