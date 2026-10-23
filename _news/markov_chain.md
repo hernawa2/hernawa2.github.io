@@ -36,7 +36,7 @@ For example, a short snippet of the row from the stochastic matrix that correspo
 
 <img src="/assets/img/stoc_matrix_i.png" alt="sample_plot" width="750">
 
-Note that there are many zeroes (i.e., sparse) within the matrix because from the limited text that we build the stochastic matrix on, we did not record any occurrences of the words 'i' followed by 'age' for example. The actual row is actually much longer with 4,679 entries (i.e., we counted 4,679 unique words in the text!). In fact, the entire stochastic matrix is of the size 4,679 by 4,679. Now, let's assume that we want to generate/predict what sentence we can create with the starting word 'i'. For simplicity, let us limit the length of the sentence to comprise of 7 words.
+Note that there are many zeroes (i.e., sparse) within the matrix because from the limited text that we build the stochastic matrix on, we did not record any occurrences of the words 'i' followed by 'age' for example. The actual row is actually much longer with 4,679 entries (i.e., we counted 4,679 unique words in the text!). In fact, the entire stochastic matrix is of the size 4,679 by 4,679. Now, let's assume that we want to generate/predict what sentence we can create with the starting word 'i'. For simplicity, let us limit the length of the prediction to the next 7 words.
 
 * First Realization: 'i' + 'have' + 'died' + 'for' + 'a' + 'candle' + 'too' + 'far'
 * Second Realization: 'i' + 'really' + 'better' + 'hire' + 'a' + 'laugh' + 'she' + 'sir'
